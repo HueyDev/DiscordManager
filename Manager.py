@@ -12,7 +12,7 @@ load_dotenv()
 Token = os.getenv("DISCORD_TOKEN_MANAGER")
 bot = commands.Bot(command_prefix="/")
 
-BASIC_POLL =     poll = {
+BASIC_POLL = {
         "👍" : "Yes",
         "👎" : "No"
         }
